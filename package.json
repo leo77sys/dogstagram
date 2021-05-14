@@ -1,0 +1,26 @@
+{
+  "name": "dogstagram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve --open --mode development --env development --port 5000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "svelte": "^3.38.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.2",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.14.2",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.3.1",
+    "svelte-loader": "^3.1.1",
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
